@@ -10,6 +10,8 @@ public class DemoClass {
 		System.out.println("Dummy application");
 		
 		System.out.println("Dummy logs");
+		
+		System.out.println("New changes from IST timezone");
 
 	}
 
