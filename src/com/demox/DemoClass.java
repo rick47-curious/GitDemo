@@ -6,6 +6,10 @@ public class DemoClass {
 		System.out.println("Hello World");
 		
 		System.out.println("goodbye, world!");
+		
+		System.out.println("Dummy application");
+		
+		System.out.println("Dummy logs");
 
 	}
 
