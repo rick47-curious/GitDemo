@@ -7,7 +7,8 @@ public class DemoCase {
 		System.out.println("New case begins...");
 		
 		System.out.println("New commit waits....");
-
+		
+		System.out.println("New additions here");
 	}
 
 }
