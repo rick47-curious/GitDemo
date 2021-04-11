@@ -16,7 +16,7 @@ Configure git :
 Check status : 
 6 . git status
 
---Before the staging the files are in "Untracked" state
+--Before staging the files are in "Untracked" state
 
 Staging:
 7. git add * - Adds everything in the staging stage
@@ -29,9 +29,24 @@ Commit:
 
 Revert the changes in the file:
 
-Particular file :
+10 .Revert a particular file :
 git checkout <filename>
 **Revert all
 git checkout -f -- Reverts all the files
 
+11. Check logs:
+*For Checking all commits:
+git log
 
+*Say for checking 5 commits:
+git log -p -5 
+
+
+***After checking type q to exit
+
+Checking what is the difference in the staging area and the working directory
+
+git diff
+
+****staging area is cheked with last commit
+git diff --staged
