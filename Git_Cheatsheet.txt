@@ -70,3 +70,5 @@ git remote add origin "url" -- adds the url named as the origin
 git remote - > shows the no of urls -> shows origin
 
 git remote --v - > Shows the urls for fetch and push
+
+git remote set-url origin <new url>
