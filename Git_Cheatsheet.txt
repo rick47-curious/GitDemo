@@ -16,6 +16,9 @@ Configure git :
 Check status : 
 6 . git status
 
+** get short status:
+git status -s
+
 --Before staging the files are in "Untracked" state
 
 Staging:
@@ -38,15 +41,22 @@ git checkout -f -- Reverts all the files
 *For Checking all commits:
 git log
 
-*Say for checking 5 commits:
+*Say for checking last 5 commits:
 git log -p -5 
 
 
 ***After checking type q to exit
 
-Checking what is the difference in the staging area and the working directory
+12. Checking what is the difference in the staging area and the working directory
 
 git diff
 
-****staging area is cheked with last commit
+****staging area is checked with last commit
 git diff --staged
+
+13. branch addition
+
+- git branch <branchname>
+ ***Switch to new branch
+- git checkout <newbranchname>
+
